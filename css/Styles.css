@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: violet;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h2 {
+    color: violet;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto input, .contacto textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card video {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.precio {
+    font-weight: bold;
+    color: violet;
+}
+.contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h2 {
+    text-align: center;
+    color: violet;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto input, .contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.contacto input:focus, .contacto textarea:focus {
+    border-color: violet;
+    outline: none;
+}
+
+.contacto button {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contacto button:hover {
+    background-color: darkviolet;
+}
+.reseñas {
+    background-color: #f0f4ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reseñas h2 {
+    text-align: center;
+    color: violet;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.reseña {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.reseña:hover {
+    transform: scale(1.05);
+}
+
+.cliente {
+    font-weight: bold;
+    color: violet;
+}
+
+.calificacion {
+    color: gold;
+    font-size: 18px;
+}
