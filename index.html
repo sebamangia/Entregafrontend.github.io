@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tienda de Electrónica</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Electrónica</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#section_productos">Productos</a></li>
+                <li><a href="#section_reseñas">Reseñas</a></li>
+                <li><a href= "#section_contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="productos">
+            <h2 id="section_productos">Productos Destacados</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="media/imagenes/telefono.jpg" alt="Teléfono XYZ">
+                    <h3>Teléfono XYZ</h3>
+                    <p>Teléfono inteligente con características avanzadas.</p>
+                    <p class="precio">$599.99</p>
+                    <video controls>
+                        <source src="media/videos/telefono.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="media/imagenes/tablet.jpg" alt="Tablet ABC">
+                    <h3>Tablet ABC</h3>
+                    <p>Tablet con pantalla de alta resolución y gran rendimiento.</p>
+                    <p class="precio">$399.99</p>
+                    <video controls>
+                        <source src="media/videos/tablet.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="media/imagenes/laptop.jpg" alt="Laptop 123">
+                    <h3>Laptop 123</h3>
+                    <p>Laptop poderosa ideal para trabajo y juegos.</p>
+                    <p class="precio">$999.99</p>
+                    <video controls>
+                        <source src="media/videos/laptop.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="media/imagenes/smartwatch.jpg" alt="Smartwatch DEF">
+                    <h3>Smartwatch DEF</h3>
+                    <p>Reloj inteligente con monitoreo de salud y actividad.</p>
+                    <p class="precio">$199.99</p>
+                    <video controls>
+                        <source src="media/videos/smartwatch.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="media/imagenes/audifonos.jpg" alt="Audífonos GHI">
+                    <h3>Audífonos GHI</h3>
+                    <p>Audífonos inalámbricos con calidad de sonido superior.</p>
+                    <p class="precio">$149.99</p>
+                    <video controls>
+                        <source src="media/videos/audifonos.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+        
+                <div class="product-card">
+                    <img src="media/imagenes/camara.jpg" alt="Cámara JKL">
+                    <h3>Cámara JKL</h3>
+                    <p>Cámara digital de alta resolución para fotos impresionantes.</p>
+                    <p class="precio">$749.99</p>
+                    <video controls>
+                        <source src="media/videos/camara.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <button>Añadir al Carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2 id="section_contacto">Contacto</h2>
+            <form action="https://formspree.io/f/mnnvavqr" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <section class="reseñas">
+            <h2 id="section_reseñas">Reseñas de Clientes</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <p class="cliente">Cliente 1</p>
+                    <p>"Excelente servicio y productos de alta calidad!"</p>
+                    <div class="calificacion">★★★★☆</div>
+                </div>
+                <div class="reseña">
+                    <p class="cliente">Cliente 2</p>
+                    <p>"Me encantó la variedad de productos. ¡Volveré a comprar!"</p>
+                    <div class="calificacion">★★★★★</div>
+                </div>
+                <div class="reseña">
+                    <p class="cliente">Cliente 3</p>
+                    <p>"El envío fue rápido y el producto llegó en perfectas condiciones."</p>
+                    <div class="calificacion">★★★★☆</div>
+                </div>
+                <div class="reseña">
+                    <p class="cliente">Cliente 4</p>
+                    <p>"Gran atención al cliente y precios competitivos."</p>
+                    <div class="calificacion">★★★★★</div>
+                </div>
+                <div class="reseña">
+                    <p class="cliente">Cliente 5</p>
+                    <p>"La calidad de los productos supera mis expectativas."</p>
+                    <div class="calificacion">★★★★★</div>
+                </div>
+                <div class="reseña">
+                    <p class="cliente">Cliente 6</p>
+                    <p>"Recomiendo esta tienda a todos mis amigos."</p>
+                    <div class="calificacion">★★★★☆</div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+    <footer>
+        <p>&copy; 2023 Tienda de Electrónica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
